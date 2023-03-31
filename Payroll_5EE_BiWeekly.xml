@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="US_Testcases.PerDiemBiWeekly_Scenerios">
+      <methods>
+		<include name="Multi_PR_No_PD_change_Hourly"></include>
+		<include name="PD_change_Hourly"></include>
+		<include name="Comp_Shifts_NotComp_StndHrs_Hourly"></include>
+		<include name="NotComp_Shifts_Comp_StndHrs_Hourly"></include>
+		<include name="Comp_Shifts_StndHrs_Hourly"></include>
+		<include name="Comp_MoreThanShifts_Hourly"></include>
+		<include name="NotComp_Shifts_StndHrs_Hourly"></include>
+		<include name="Comp_Shifts_WorkedMorethan_StndHrs_Hourly"></include>
+		<include name="NonClinicalTS_PD_Hourly"></include>	       
+	    <include name="Multi_PR_No_PD_change_Weekly"></include>
+	    <include name="PD_change_Weekly"></include>
+		<include name="Comp_Shifts_NotComp_StndHrs_Weekly"></include>
+	    <include name="NotComp_Shifts_Comp_StndHrs_Weekly"></include>
+        <include name="Comp_Shifts_StndHrs_Weekly"></include>
+	    <include name="Comp_MoreThanShifts_Weekly"></include>
+        <include name="NotComp_Shifts_StndHrs_Weekly"></include>
+        <include name="Comp_Shifts_WorkedMorethan_StndHrs_Weekly"></include>
+        <include name="NonClinicalTS_PD_Weekly"></include>
+		<include name="Multi_PR_No_PD_change_PerDay"></include>
+		<include name="PD_change_PerDay"></include>	
+		<include name="NonClinicalTS_PD_PerDay"></include> 
+	  </methods>	  
+	  </class></classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

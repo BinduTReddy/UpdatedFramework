@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="US_Testcases.PerDiem_9PFC_Scenerios">
+        <methods>
+          <include name="NonClinicalTS_PD_Weekly" invocation-numbers="0"/>
+          <include name="Multi_PR_No_PD_change_Hourly" invocation-numbers="0"/>
+          <include name="PD_change_Hourly" invocation-numbers="0"/>
+          <include name="Multi_PR_No_PD_change_Weekly" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- US_Testcases.PerDiem_9PFC_Scenerios -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
